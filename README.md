@@ -12,6 +12,7 @@ ___
 * [Introdução ao Azure](#introducao-ao-azure)
     * [Computação na Nuvem](#computacao-na-nuvem)
         * [Quais os beneficios da computação na nuvem ?](#quais-os-benefecios-da-computacao-na-nuvem)
+    * [Modelos de Infraestrutura na Nuvem](#modelos-de-infraestrutura-na-nuvem)
 ___
 
 ## Introdução ao Azure <a name = "introducao-ao-azure"></a>
@@ -100,6 +101,25 @@ A diminuição de gastos com manutenção é um ponto que pesa bastante quando t
 Outro item que é visível a todos, talvez essa seja o principal ponto, se sua empresa trabalha com produtos online com a computação na nuvem você pode implantar facilmente seu aplicativo em várias regiões do mundo com apenas um clique, com isso temos baixa latência e uma experiência melhor para seus clientes de forma simples com baixo custo.
 </p>
 
-<p style="text-align: justify;"> 
+<p style="text-align: justify;">
 E por último mas nao menos importante a segurança, no modelo datacenter você terá toda a segurança fisica, já na nuvem isso é eliminado 100% pois sua segurança e o login de acesso ao portal. Já na parte de aplicação, o Azure tem inúmeras soluções para isso.
+</p>
+
+## Modelos de Infraestrutura na Nuvem <a name = "modelos-de-infraestrutura-na-nuvem"></a>
+
+<p style="text-align: justify;">
+Existem três tipos de modelos de infraestrutura na nuvem, <b><i>púlica</i></b>,
+<b><i>híbrida</i></b> e <b><i>privada</i></b>, iremo ver um pouco sobre cada uma delas.
+</p>
+
+* <b>Pública</b><p style="text-align: justify;"> 
+São aplicativos e serviços que existem apenas na internet, e são características em serem multi-tenant, na qual uma única instância de serviço é executado em um servidor e atende a vários clientes ou requisições. O Azure por exemplo é uma referência de um sistema de nuvem pública.
+</p>
+
+* <b>Privado</b><p style="text-align: justify;">
+Uma nuvem privada oferece a você todas as características de uma nuvem, resiliência, escala, auto atendimento e todas as definições que conhecemos, porem todos os serviços existem de forma local e esse modelo requer um ivestimento muito grande pois mesmo trabalhando de forma local precisamos ter reseliência em escala e para isso teremos que ter um  enorme parque datacenter local.
+</p>
+
+* <b>Híbrida</b><p style="text-align: justify;">
+E como o nome já diz, temos uma infra local e remota fazendo o híbrido entre o público e o privado e o Azure é uma ótiuma opção para trabalhar de forma híbrida tendo soluções para isso. A ideia é estender o seu ambiente local para a nuvem onde você torna se capaz de gerenciar um one-premise e na nuvem juntos como em um grupo.
 </p>
