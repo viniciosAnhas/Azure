@@ -13,7 +13,16 @@ ___
     * [Computação na Nuvem](#computacao-na-nuvem)
         * [Quais os beneficios da computação na nuvem ?](#quais-os-benefecios-da-computacao-na-nuvem)
     * [Modelos de Infraestrutura na Nuvem](#modelos-de-infraestrutura-na-nuvem)
+        * [Pública](#publica)
+        * [Privada](#privada)
+        * [Híbrida](#hibrida)
     * [Diferenças entre serviços na Nuvem](#diferenças-entre-servicos-na-nuvem)
+        * [SaaS](#saas)
+        * [IaaS](#iaas)
+        * [HaaS](#haas)
+        * [PaaS](#paas)
+        * [FaaS](#faas)
+    * [Regiões do Azure](#regioes-do-azure)
 ___
 
 ## Introdução ao Azure <a name = "introducao-ao-azure"></a>
@@ -113,15 +122,15 @@ Existem três tipos de modelos de infraestrutura na nuvem, <b><i>púlica</i></b>
 <b><i>híbrida</i></b> e <b><i>privada</i></b>, iremo ver um pouco sobre cada uma delas.
 </p>
 
-* <b>Pública</b><p style="text-align: justify;"> 
+* <b>Pública</b><a name = "publica"></a><p style="text-align: justify;"> 
 São aplicativos e serviços que existem apenas na internet, e são características em serem multi-tenant, na qual uma única instância de serviço é executado em um servidor e atende a vários clientes ou requisições. O Azure por exemplo é uma referência de um sistema de nuvem pública.
 </p>
 
-* <b>Privado</b><p style="text-align: justify;">
+* <b>Privado</b><a name = "privada"></a><p style="text-align: justify;">
 Uma nuvem privada oferece a você todas as características de uma nuvem, resiliência, escala, auto atendimento e todas as definições que conhecemos, porem todos os serviços existem de forma local e esse modelo requer um ivestimento muito grande pois mesmo trabalhando de forma local precisamos ter reseliência em escala e para isso teremos que ter um  enorme parque datacenter local.
 </p>
 
-* <b>Híbrida</b><p style="text-align: justify;">
+* <b>Híbrida</b><a name = "hibrida"></a><p style="text-align: justify;">
 E como o nome já diz, temos uma infra local e remota fazendo o híbrido entre o público e o privado e o Azure é uma ótiuma opção para trabalhar de forma híbrida tendo soluções para isso. A ideia é estender o seu ambiente local para a nuvem onde você torna se capaz de gerenciar um one-premise e na nuvem juntos como em um grupo.
 </p>
 
@@ -131,22 +140,28 @@ E como o nome já diz, temos uma infra local e remota fazendo o híbrido entre o
 É muito comum esciutra os nomes de <b><i>SaaS</i></b>, <b><i>IaaS</i></b>, <b><i>PaaS</i></b>, <b><i>HaaS</i></b> e <b><i>FaaS</i></b>, todas essas nomeclaturas terminam em <b><i>aaS</i></b>, acrônomo para <b>"As a Service"</b>, no português <b>"como um serviço"</b>, vamos analisar o que faz cada serviço e como classifica-lo.
 </p>
 
-* <b>SaaS (Software as a Service)</b><p style="text-align: justify;">
+* <b>SaaS (Software as a Service)</b><a name = "saas"></a><p style="text-align: justify;">
 É um modelo de negócio onde a distribuição do software é feita via plataforma web, é uma forma de hospedar e distribuir centralmente aplicações para os clientes via internet. Aplicações Web são executadas nos servidores de provedores. São aplicações on line que podem ser usadas no computador, tablet ou celular de maneira simples e remota.
 </p>
 
-* <b>IaaS (Infrastructure as a Service)</b><p style="text-align: justify;">
+* <b>IaaS (Infrastructure as a Service)</b><a name = "iaas"></a><p style="text-align: justify;">
 É um modelo de negócio na nuvem que permite aos clientes alugarem espaço em um datacenter virtual oferecido por um fornecedor de infraestrutura. Ao invés do cliente comprar ou montar uma estrutura de datacenter, pode alugar os recursos computacionais, isso permite que o cliente configure e gerencie seu próprio sistema operacional e aplicações.
 </p>
 
-* <b>HaaS (Hardware as a Service)</b><p style="text-align: justify;">
+* <b>HaaS (Hardware as a Service)</b><a name = "haas"></a><p style="text-align: justify;">
 Modelo de negócio que oferece Hardware como serviço, onde os pacotes podem incluir hardware, software basico, manutenção, instalação por um preço mensal com contrato de período determinado e eles podem ser utilizados de duas maneiras, como serviço gerenciado, onde a contratação de equipamentos físicos a partir de um aluguel ou na nuvem onde você contrata todo o hardware para ser disponibilizado remotamente.
 </p>
 
-* <b>PaaS (Platform as a Service)</b><p style="text-align: justify;">
+* <b>PaaS (Platform as a Service)</b><a name = "paas"></a><p style="text-align: justify;">
 Seria um meio termo entre o IaaS e SaaS, onde é disponibilizado uma plataforma de desenvolvimento e implementação de aplicações de forma simplificada, sem a necessidade de configurar toda uma infra estrutura.
 </p>
 
-* <b>FaaS (Function as a Service)</b><p style="text-align: justify;">
+* <b>FaaS (Function as a Service)</b><a name = "faas"></a><p style="text-align: justify;">
 é um modelo de computação na nuvem que busca abstrair a questão do servidor e máquina onde rodam os seus programas, e é o que também podemos chamar de <b><i>Serverless</i></b> que busca simplificar a vida do desenvolvedor pois toda a infra estrutura é abstraida e auto escalada.
+</p>
+
+## Regiões do Azure <a name = "regioes-do-azure"></a>
+
+<p style="text-align: justify;">
+Regiões no Azure é um conjunto de datacenters implantados dentro de um perímetro de latência definifa e conectados por meio de uma rede regional dedicada de baixa latência. Você deve colocar o seu serviço na melhor localização geográfica para a queles que estão consumindo seus serviços pro exemplo, se o seu site for dedicado ao público brasileiro, o ideial é colocar esse app na região do Brasil, e sua conta nao fica presa em uma unica região você pode adicionar seus serviços pelo por todo o globo.
 </p>
