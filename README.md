@@ -13,6 +13,7 @@ ___
     * [Computação na Nuvem](#computacao-na-nuvem)
         * [Quais os beneficios da computação na nuvem ?](#quais-os-benefecios-da-computacao-na-nuvem)
     * [Modelos de Infraestrutura na Nuvem](#modelos-de-infraestrutura-na-nuvem)
+    * [Diferenças entre serviços na Nuvem](#diferenças-entre-servicos-na-nuvem)
 ___
 
 ## Introdução ao Azure <a name = "introducao-ao-azure"></a>
@@ -122,4 +123,30 @@ Uma nuvem privada oferece a você todas as características de uma nuvem, resili
 
 * <b>Híbrida</b><p style="text-align: justify;">
 E como o nome já diz, temos uma infra local e remota fazendo o híbrido entre o público e o privado e o Azure é uma ótiuma opção para trabalhar de forma híbrida tendo soluções para isso. A ideia é estender o seu ambiente local para a nuvem onde você torna se capaz de gerenciar um one-premise e na nuvem juntos como em um grupo.
+</p>
+
+## Diferenças entre serviços na Nuvem <a name = "diferenças-entre-servicos-na-nuvem"></a>
+
+<p style="text-align: justify;">
+É muito comum esciutra os nomes de <b><i>SaaS</i></b>, <b><i>IaaS</i></b>, <b><i>PaaS</i></b>, <b><i>HaaS</i></b> e <b><i>FaaS</i></b>, todas essas nomeclaturas terminam em <b><i>aaS</i></b>, acrônomo para <b>"As a Service"</b>, no português <b>"como um serviço"</b>, vamos analisar o que faz cada serviço e como classifica-lo.
+</p>
+
+* <b>SaaS (Software as a Service)</b><p style="text-align: justify;">
+É um modelo de negócio onde a distribuição do software é feita via plataforma web, é uma forma de hospedar e distribuir centralmente aplicações para os clientes via internet. Aplicações Web são executadas nos servidores de provedores. São aplicações on line que podem ser usadas no computador, tablet ou celular de maneira simples e remota.
+</p>
+
+* <b>IaaS (Infrastructure as a Service)</b><p style="text-align: justify;">
+É um modelo de negócio na nuvem que permite aos clientes alugarem espaço em um datacenter virtual oferecido por um fornecedor de infraestrutura. Ao invés do cliente comprar ou montar uma estrutura de datacenter, pode alugar os recursos computacionais, isso permite que o cliente configure e gerencie seu próprio sistema operacional e aplicações.
+</p>
+
+* <b>HaaS (Hardware as a Service)</b><p style="text-align: justify;">
+Modelo de negócio que oferece Hardware como serviço, onde os pacotes podem incluir hardware, software basico, manutenção, instalação por um preço mensal com contrato de período determinado e eles podem ser utilizados de duas maneiras, como serviço gerenciado, onde a contratação de equipamentos físicos a partir de um aluguel ou na nuvem onde você contrata todo o hardware para ser disponibilizado remotamente.
+</p>
+
+* <b>PaaS (Platform as a Service)</b><p style="text-align: justify;">
+Seria um meio termo entre o IaaS e SaaS, onde é disponibilizado uma plataforma de desenvolvimento e implementação de aplicações de forma simplificada, sem a necessidade de configurar toda uma infra estrutura.
+</p>
+
+* <b>FaaS (Function as a Service)</b><p style="text-align: justify;">
+é um modelo de computação na nuvem que busca abstrair a questão do servidor e máquina onde rodam os seus programas, e é o que também podemos chamar de <b><i>Serverless</i></b> que busca simplificar a vida do desenvolvedor pois toda a infra estrutura é abstraida e auto escalada.
 </p>
