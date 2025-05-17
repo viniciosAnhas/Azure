@@ -194,3 +194,156 @@
         <td>Migração, cenários regulados e ágeis</td>
     </tr>
 </table>
+
+<h1>Modelos de Serviços na Nuvem</h1>
+
+<p style="text-align: justify;">Na computação em nuvem, os serviços são entregues em diferentes níveis de abstração. Isso determina o quanto você gerencia e o quanto o provedor de nuvem gerencia para você.</p>
+
+<p style="text-align: justify;">Os 3 modelos principais são:</p>
+
+<h3>IaaS – Infrastructure as a Service (Infraestrutura como Serviço)</h3>
+
+<p style="text-align: justify;">É o modelo mais básico e flexível. A nuvem fornece infraestrutura de TI sob demanda, como máquinas virtuais, redes, armazenamento e firewalls. Você gerencia o sistema operacional, aplicações e dados.</p>
+
+<p style="text-align: justify;">Características:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Controle total do sistema operacional e aplicativos.</li>
+
+  <li style="text-align: justify;">Infraestrutura altamente escalável.</li>
+
+  <li style="text-align: justify;">Você instala e configura tudo.</li>
+
+</ul>
+
+<p style="text-align: justify;">Vantagens:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Alta flexibilidade e controle.</li>
+
+  <li style="text-align: justify;">Ideal para migração de data centers locais.</li>
+
+  <li style="text-align: justify;">Modelo “pague pelo que usar”.</li>
+
+</ul>
+
+<p style="text-align: justify;">Exemplos no Azure:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Azure Virtual Machines</li>
+
+  <li style="text-align: justify;">Azure Storage</li>
+
+  <li style="text-align: justify;">Azure Virtual Network</li>
+
+</ul>
+
+<h3>PaaS – Platform as a Service (Plataforma como Serviço)</h3>
+
+<p style="text-align: justify;">Nesse modelo, o provedor gerencia a infraestrutura e o sistema operacional. Você se concentra apenas no desenvolvimento e execução das aplicações. Ideal para desenvolvedores.</p>
+
+<p style="text-align: justify;">Características:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Infraestrutura, SO e middleware são gerenciados pelo provedor.</li>
+
+  <li style="text-align: justify;">Você só gerencia as aplicações e dados.</li>
+
+  <li style="text-align: justify;">Escalabilidade automática e integração contínua.</li>
+
+</ul>
+
+<p style="text-align: justify;">Vantagens:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Reduz a complexidade de desenvolvimento.</li>
+
+  <li style="text-align: justify;">Rápida implantação de aplicações.</li>
+
+  <li style="text-align: justify;">Alta produtividade para desenvolvedores.</li>
+
+</ul>
+
+<p style="text-align: justify;">Exemplos no Azure:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Azure App Service</li>
+
+  <li style="text-align: justify;">Azure SQL Database</li>
+
+  <li style="text-align: justify;">Azure Functions</li>
+
+</ul>
+
+<h3>SaaS – Software as a Service (Software como Serviço)</h3>
+
+<p style="text-align: justify;">É o nível mais alto de abstração. O software completo é entregue como um serviço via internet. O usuário não se preocupa com nada de infraestrutura ou manutenção.</p>
+
+<p style="text-align: justify;">Características:</p>
+
+<ul>
+
+  <li style="text-align: justify;">O provedor cuida de tudo: infraestrutura, plataforma e aplicação.</li>
+
+  <li style="text-align: justify;">O usuário apenas acessa e usa o software.</li>
+
+</ul>
+
+<p style="text-align: justify;">Vantagens:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Pronto para uso imediato.</li>
+
+  <li style="text-align: justify;">Atualizações e manutenção automáticas.</li>
+
+  <li style="text-align: justify;">Ideal para usuários finais.</li>
+
+</ul>
+
+<p style="text-align: justify;">Exemplos:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Microsoft 365 (antigo Office 365)</li>
+
+  <li style="text-align: justify;">Outlook.com</li>
+
+  <li style="text-align: justify;">Dynamics 365</li>
+
+  <li style="text-align: justify;">OneDrive</li>
+
+</ul>
+
+<table border="1">
+    <tr>
+        <th>Modelo</th>
+        <th>Gerenciado pelo Cliente</th>
+        <th>Gerenciado pelo Provedor</th>
+        <th>Exemplo no Azure</th>
+    </tr>
+    <tr>
+        <td>IaaS</td>
+        <td>Aplicações, dados, SO, runtime</td>
+        <td>Virtualização, servidores, rede, storage</td>
+        <td>Azure VMs, Azure Virtual Network</td>
+    </tr>
+    <tr>
+        <td>PaaS</td>
+        <td>Aplicações, dados</td>
+        <td>SO, runtime, servidores, storage, rede</td>
+        <td>Azure App Service, Azure SQL DB</td>
+    </tr>
+    <tr>
+        <td>SaaS</td>
+        <td>Apenas uso do software</td>
+        <td>Todo o restante</td>
+        <td>Microsoft 365, Outlook.com</td>
+    </tr>
+</table>
