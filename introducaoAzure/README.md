@@ -417,3 +417,23 @@
   <li style="text-align: justify;">Evite misturar recursos de diferentes regiões no mesmo grupo, sempre que possível.</li>
   
 </ul>
+
+<p style="text-align: justify;">Exemplo Prático:</p>
+
+<p style="text-align: justify;">Ao criar um Resource Group chamado rg-sistema-web. Dentro dele, podemos colocar:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Uma máquina virtual (VM).</li>
+
+  <li style="text-align: justify;">Um banco de dados SQL</li>
+
+  <li style="text-align: justify;">Um load balancer</li>
+
+  <li style="text-align: justify;">Uma conta de armazenamento</li>
+
+  <li style="text-align: justify;">Todos localizados na região Brazil South.</li>
+  
+</ul>
+
+<p style="text-align: justify;">Assim, você pode gerenciar, monitorar e excluir todos esses recursos de forma unificada.</p>
