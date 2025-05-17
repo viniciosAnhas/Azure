@@ -347,3 +347,73 @@
         <td>Microsoft 365, Outlook.com</td>
     </tr>
 </table>
+
+<h1>Regiões no Azure (Azure Regions)</h1>
+
+<p style="text-align: justify;">Uma região é um conjunto de datacenters interconectados dentro de uma área geográfica específica, usada para hospedar serviços e dados do Azure.</p>
+
+<p style="text-align: justify;">Por que as regiões são importantes?</p>
+
+<ul>
+
+  <li style="text-align: justify;">Latência: escolher uma região próxima dos usuários reduz o tempo de resposta.</li>
+
+  <li style="text-align: justify;">Conformidade e soberania de dados: algumas empresas ou países exigem que os dados fiquem em locais específicos.</li>
+
+  <li style="text-align: justify;">Disponibilidade de serviços: nem todos os serviços do Azure estão disponíveis em todas as regiões.</li>
+
+  <li style="text-align: justify;">Alta disponibilidade: você pode distribuir recursos entre regiões diferentes para tolerância a falhas.</li>
+
+</ul>
+
+<p style="text-align: justify;">Exemplos de regiões:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Brazil South (São Paulo)</li>
+
+  <li style="text-align: justify;">East US, West Europe, Southeast Asia</li>
+
+  <li style="text-align: justify;">North Europe, Central India</li>
+
+</ul>
+
+<p style="text-align: justify;">Também existe:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Zonas de Disponibilidade (Availability Zones): sub-regiões dentro de uma região, usadas para garantir redundância física.</li>
+
+  <li style="text-align: justify;">Regiões Emparelhadas (Paired Regions): duas regiões do Azure emparelhadas para garantir recuperação de desastres.</li>
+  
+</ul>
+
+<h1>Grupos de Recursos no Azure (Resource Groups)</h1>
+
+<p style="text-align: justify;">Um Resource Group é um container lógico que agrupa recursos do Azure (como VMs, bancos de dados, redes, etc.) que compartilham o mesmo ciclo de vida.</p>
+
+<p style="text-align: justify;">Por que usar Resource Groups?</p>
+
+<ul>
+
+  <li style="text-align: justify;">Organização: agrupa os recursos de um projeto, aplicação ou departamento.</li>
+
+  <li style="text-align: justify;">Gerenciamento facilitado: você pode aplicar permissões, políticas e tags a um grupo inteiro.</li>
+
+  <li style="text-align: justify;">Automação: facilita o uso de templates (ARM, Bicep) para implantar e gerenciar ambientes completos.</li>
+
+  <li style="text-align: justify;">Ciclo de vida: é possível excluir todos os recursos de uma vez removendo o grupo.</li>
+  
+</ul>
+
+<p style="text-align: justify;">Boas práticas:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Use nomes descritivos e padronizados.</li>
+
+  <li style="text-align: justify;">Agrupe recursos relacionados logicamente (por exemplo, uma aplicação inteira).</li>
+
+  <li style="text-align: justify;">Evite misturar recursos de diferentes regiões no mesmo grupo, sempre que possível.</li>
+  
+</ul>
