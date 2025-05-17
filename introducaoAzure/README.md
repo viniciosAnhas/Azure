@@ -437,3 +437,150 @@
 </ul>
 
 <p style="text-align: justify;">Assim, você pode gerenciar, monitorar e excluir todos esses recursos de forma unificada.</p>
+
+<h1>Governança e Gerenciamento de Recursos</h1>
+
+<p style="text-align: justify;">Existem quatro ferramentas essenciais para governança e gerenciamento de recursos no Azure: Tags, Locks, IAM e Policies. Esses recursos ajudam a manter controle, segurança e organização dentro de um ambiente em nuvem.</p>
+
+<h3>Tags</h3>
+
+<p style="text-align: justify;">As Tags são pares de chave-valor que você pode atribuir a recursos do Azure para organização e gerenciamento.</p>
+
+<p style="text-align: justify;">Para que servem?</p>
+
+<ul>
+
+  <li style="text-align: justify;">Classificação de custos: rastrear gastos por projeto, departamento ou ambiente.</li>
+
+  <li style="text-align: justify;">Organização lógica: agrupar recursos por aplicação, dono ou finalidade.</li>
+
+  <li style="text-align: justify;">Automação: filtros em scripts e ferramentas de gerenciamento.</li>
+  
+</ul>
+
+<p style="text-align: justify;">Exemplos de Tags</p>
+
+<table border="1">
+    <tr>
+        <th>Chave</th>
+        <th>Valor</th>
+    </tr>
+    <tr>
+        <td>Ambiente</td>
+        <td>Produção</td>
+    </tr>
+    <tr>
+        <td>Dono</td>
+        <td>EquipeDev</td>
+    </tr>
+    <tr>
+        <td>Projeto</td>
+        <td>Site</td>
+    </tr>
+</table>
+
+<h3>Locks</h3>
+
+<p style="text-align: justify;">Os Locks impedem alterações acidentais ou exclusões de recursos importantes.</p>
+
+<p style="text-align: justify;">Tipos de Lock:</p>
+
+<ul>
+
+  <li style="text-align: justify;">ReadOnly: o recurso só pode ser lido, nenhuma alteração permitida.</li>
+
+  <li style="text-align: justify;">CanNotDelete: permite alterações, mas impede exclusão.</li>
+  
+</ul>
+
+<p style="text-align: justify;">Quando usar:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Em recursos críticos, como firewalls, redes, ou bases de dados de produção.</li>
+
+  <li style="text-align: justify;">Para garantir que recursos essenciais não sejam excluídos por erro humano ou automações.</li>
+  
+</ul>
+
+<h3>IAM (Identity and Access Management)</h3>
+
+<p style="text-align: justify;">O IAM do Azure controla quem pode acessar o quê, com quais permissões. É baseado no modelo RBAC (Role-Based Access Control).</p>
+
+<p style="text-align: justify;">Componentes principais:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Usuários e grupos: contas que recebem acesso.</li>
+
+  <li style="text-align: justify;">Funções (Roles): definem as permissões (ex: Leitor, Colaborador, Administrador).</li>
+
+  <li style="text-align: justify;">Escopo: define onde a permissão se aplica (ex: assinatura, grupo de recursos, recurso individual).</li>
+  
+</ul>
+
+<p style="text-align: justify;">Exemplo:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Um usuário com a função Leitor em um Resource Group pode ver os recursos, mas não pode alterá-los.</li>
+  
+</ul>
+
+<h3>Policies (Políticas do Azure)</h3>
+
+<p style="text-align: justify;">As Azure Policies são regras que impõem governança e conformidade sobre como os recursos são criados e configurados.</p>
+
+<p style="text-align: justify;">Usos comuns:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Obrigar uso de regiões específicas.</li>
+
+  <li style="text-align: justify;">Impedir criação de tipos de VMs com custo alto.</li>
+
+  <li style="text-align: justify;">Exigir que todos os recursos tenham Tags específicas.</li>
+
+  <li style="text-align: justify;">Bloquear uso de serviços não aprovados.</li>
+  
+</ul>
+
+<p style="text-align: justify;">Benefícios:</p>
+
+<ul>
+
+  <li style="text-align: justify;">Garantem padronização e conformidade com regras internas e externas.</li>
+
+  <li style="text-align: justify;">Auditorias automáticas: identificam e corrigem desvios (remediação).</li>
+  
+</ul>
+
+<p style="text-align: justify;">Comparativo Rápido:</p>
+
+<table border="1">
+    <tr>
+        <th>Recurso</th>
+        <th>Função Principal</th>
+        <th>Aplicação Típica</th>
+    </tr>
+    <tr>
+        <td>Tags</td>
+        <td>Organização e classificação</td>
+        <td>Rastrear custos, agrupar por projeto</td>
+    </tr>
+    <tr>
+        <td>Locks</td>
+        <td>Prevenção de alterações indesejadas</td>
+        <td>Proteger recursos críticos</td>
+    </tr>
+    <tr>
+        <td>IAM</td>
+        <td>Controle de acesso baseado em função	</td>
+        <td>Gerenciar quem pode acessar o quê</td>
+    </tr>
+    <tr>
+        <td>Policies</td>
+        <td>Governança e conformidade</td>
+        <td>Impor regras de criação/configuração</td>
+    </tr>
+</table>
